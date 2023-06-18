@@ -1,6 +1,5 @@
 <script>
 	import old_vught from '$lib/images/old_vught.jpg';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
 
 <svelte:head>
