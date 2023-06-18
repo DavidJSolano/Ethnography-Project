@@ -4,23 +4,53 @@
 </svelte:head>
 
 <div class="text-column">
-	<h1>About this app</h1>
+	<h1>Camp Vught</h1>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
-
-	<pre>npm create svelte@latest</pre>
-
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
+		The setting of these photos takes place in the former concentration camp, Vught. The atrocities that
+		occurred in Vught during World War II are forever captured and documented by the Nationaal Monument
+		Kamp Vught Museum (location of photos).
 	</p>
 
 	<p>
-		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
-		using it with JavaScript disabled!
+		Documenting historical events is crucial for human progression. When we begin to censor tragic events in human
+		history, valuable lessons aren't learned and victims aren't avenged.  
 	</p>
+	<p class="quote">
+		<strong>
+			<em>
+				“Those who cannot remember the past are condemned to repeat it.” 
+			</em>
+			<br/>
+			– George Santayana
+		</strong>
+	</p>
+	<a class="photos" href="/photos">
+		<button><strong>Go to Photos!</strong></button>
+	</a>
 </div>
+<style>
+	div {
+		font-family:'Courier New', Courier, monospace;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-size: large;
+		color: black;
+	}
+	.quote {
+		text-align: center;
+	}
+
+	button {
+		height: 7vh;
+		width: 25vh;
+		border-radius: 10px;
+		border-width: 3px;
+		font-family:'Courier New', Courier, monospace;
+	}
+
+	button:hover {
+		background-color: lightgrey;
+	}
+</style>
