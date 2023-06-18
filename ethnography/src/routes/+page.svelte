@@ -1,6 +1,5 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
+	import old_vught from '$lib/images/old_vught.jpg';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
 
@@ -11,49 +10,56 @@
 
 <section>
 	<h1>
-		<span class="welcome">
+		<div class="intro">
 			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
+				<img src={old_vught} alt="Camp Vught during WWII"/>
 			</picture>
-		</span>
+		</div>
 
 		Camp Vught Ethnography Project<br />
 	</h1>
-
 	<h2>
-		<strong>src/routes</strong>
+		<strong>By: David Solano</strong>
 	</h2>
+	<a class="begin" href="/about">
+		<button><strong>Begin</strong></button>
+	</a>
 
-	<Counter />
 </section>
 
 <style>
 	section {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
 		align-items: center;
 		flex: 0.6;
 	}
 
 	h1 {
 		width: 100%;
+		font-family:'Courier New', Courier, monospace;
+		font-weight: 1000;
+		margin-bottom: 0vh;
 	}
 
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
+	h2 {
+		font-family:'Courier New', Courier, monospace;
 	}
 
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
+	img {
+		width: 70vw;
+		height: 60vh;
 		top: 0;
-		display: block;
+	}
+
+	button {
+		height: 5vh;
+		width: 10vh;
+		border-radius: 10px;
+		font-family:'Courier New', Courier, monospace;
+	}
+	
+	button:hover {
+		background-color: lightgrey;
 	}
 </style>

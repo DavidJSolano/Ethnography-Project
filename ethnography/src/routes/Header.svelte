@@ -17,8 +17,8 @@
 				<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 					<a href="/about">About</a>
 				</li>
-				<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
-					<a href="/sverdle">Sverdle</a>
+				<li aria-current={$page.url.pathname.startsWith('/photos') ? 'page' : undefined}>
+					<a href="/photos">Photos</a>
 				</li>
 			</ul>
 			<svg viewBox="0 0 2 3" aria-hidden="true">
@@ -43,7 +43,7 @@
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
+		--background: lightgrey;
 	}
 
 	svg {
@@ -91,9 +91,10 @@
 		height: 100%;
 		align-items: center;
 		padding: 0 0.5rem;
-		color: var(--color-text);
-		font-weight: 700;
-		font-size: 0.8rem;
+		color: black;
+		font-family:'Courier New', Courier, monospace;
+		font-weight: 1000;
+		font-size: 0.9rem;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		text-decoration: none;
@@ -101,6 +102,6 @@
 	}
 
 	a:hover {
-		color: var(--color-theme-1);
+		color: blue;
 	}
 </style>
