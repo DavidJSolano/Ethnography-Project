@@ -159,11 +159,16 @@
             the past-- no matter how ugly it is. The Netherlands has become what it is today because its
             people recognized that genocide and discrimination toward others were wrong. The events at Vught
             relate to everything we've done in the classroom in countless ways. Genocide, human rights violations,
-            and struggle all occurred at this very location. It was only with hope and determination that survivors
+            and unethical/unfair practices all occurred at this very location. Heinous incidents like this
+            inspired countries to band together to create an international court system such as the ICC to prevent
+            anything like it to ever be possible again (Gender Report Card on the ICC). It was only with hope and determination that survivors
             of concentration camps persisted to continue living out their lives to retell their stories to the
-            masses and prevent such atrocities from occurring again.
+            masses and in hopes of preventing such atrocities from occurring again.
         </strong>
     </p>
+    <a href="/workscited">
+		<button><strong>Go to Works Cited</strong></button>
+	</a>
 </div>
 
 <style>
@@ -179,5 +184,16 @@
 		width: 40vw;
 		height: 70vh;
 		top: 0;
+	}
+    button {
+		height: 7vh;
+		width: 25vh;
+		border-radius: 10px;
+		border-width: 3px;
+		font-family:'Courier New', Courier, monospace;
+	}
+
+	button:hover {
+		background-color: lightgrey;
 	}
 </style>
