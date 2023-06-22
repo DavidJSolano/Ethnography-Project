@@ -164,6 +164,10 @@
             anything like it to ever be possible again (Gender Report Card on the ICC). It was only with hope and determination that survivors
             of concentration camps persisted to continue living out their lives to retell their stories to the
             masses and in hopes of preventing such atrocities from occurring again.
+            <br/>
+            <br/>
+            By examining the historical context of the Netherlands and exploring contemporary issues, we can obtain deeper understanding
+            of the challenges and successes this country faces in creating a more harmonious and inclusive society.
         </strong>
     </p>
     <a href="/workscited">
