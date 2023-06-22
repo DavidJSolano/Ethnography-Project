@@ -9,6 +9,10 @@
     import disect from '$lib/images/disect.jpg';
     import crematory from '$lib/images/crematory.jpg';
     import ashes from '$lib/images/ashes.jpg';
+    import belle from '$lib/images/belle.jpg';
+    import anne from '$lib/images/anne.jpg';
+    import icc from '$lib/images/ICC.jpg';
+    import vincent from '$lib/images/vincent.jpg';
 </script>
 
 <svelte:head>
@@ -153,6 +157,12 @@
     </div>
     <br/>
     <h1>Conclusion</h1>
+    <div class="photos">
+        <img src={belle} alt="Belle"/>
+        <img src={anne} alt="Anne"/>
+        <img src={icc} alt="ICC"/>
+        <img src={vincent} alt="Vincent"/>
+    </div>
     <p>
         <strong>
             Relating to our theme of preventing censorship within history, it's important for us to remember
@@ -184,6 +194,11 @@
 		font-size: large;
 		color: black;
 	}
+    .photos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3px;
+    }
     img {
 		width: 40vw;
 		height: 70vh;
