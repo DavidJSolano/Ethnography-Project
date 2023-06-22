@@ -157,7 +157,7 @@
         <strong>
             Relating to our theme of preventing censorship within history, it's important for us to remember
             the past-- no matter how ugly it is. The Netherlands has become what it is today because its
-            people recognized that genocide and discrimination toward others were wrong. The events at Vught
+            people recognized that genocide and discrimination toward others was wrong. The events at Vught
             relate to everything we've done in the classroom in countless ways. Genocide, human rights violations,
             and unethical/unfair practices all occurred at this very location. Heinous incidents like this
             inspired countries to band together to create an international court system such as the ICC to prevent
